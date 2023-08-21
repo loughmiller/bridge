@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Project shit
+.pio
+.vscode
+*.code-workspace
+
