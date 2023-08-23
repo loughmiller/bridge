@@ -55,7 +55,7 @@ StaticJsonDocument<128> config;
 void setup() {
   Serial.begin(9600);
   delay(1000);
-  Serial.println("setup");
+  Serial.println("setup bridge");
 
 // WIFI SETUP
   mesh.setDebugMsgTypes( ERROR | STARTUP );  // set before init() so that you can see startup messages
@@ -72,7 +72,7 @@ void setup() {
 
   Serial.println("setup complete");
   Serial.println("setup complete");
-  Serial.println("setup complete");
+  Serial.println("BRIDGE");
 }
 
 uint_fast8_t lastMessageID = 255;
